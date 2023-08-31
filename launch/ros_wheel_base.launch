@@ -1,0 +1,5 @@
+<launch>
+    <node name="ros_wheel_base" pkg="ros_wheel_base" type="ros_wheel_base_node" output="screen">
+        <rosparam file="$(find ros_wheel_base)/config/ros_wheel_base.yaml" />
+    </node>
+</launch>

@@ -1,0 +1,10 @@
+# wheel maximum angular speed in rad/s
+max_wheel_angular_speed: 10.0
+# frequency of control messages in Hz
+control_frequency: 10.0
+# calculate velocity from angles or take it from a separate velocity topic
+calculate_velocity: false
+# array of strings representing names of wheels
+wheel_names: ["front_left_wheel", "front_right_wheel", "rear_left_wheel", "rear_right_wheel"]
+# array of strings representing names of joints
+joint_names: ["base_to_front_left_wheel", "base_to_front_right_wheel", "base_to_rear_left_wheel", "base_to_rear_right_wheel"]
